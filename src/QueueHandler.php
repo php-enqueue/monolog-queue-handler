@@ -7,7 +7,7 @@ use Monolog\Handler\AbstractProcessingHandler;
 use Monolog\Logger;
 use Monolog\Formatter\JsonFormatter;
 
-class QueueInteropHandler extends AbstractProcessingHandler
+class QueueHandler extends AbstractProcessingHandler
 {
     /**
      * @var PsrContext
